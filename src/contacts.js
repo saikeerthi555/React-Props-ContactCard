@@ -1,15 +1,17 @@
+import App from "./components/App.jsx";
+
 const contacts = [
   {
     name: "Beyonce",
     imgURL:
-      "https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg",
+      "https://cdn.britannica.com/51/188751-050-D4E1CFBC/Beyonce-2010.jpg",
     phone: "+123 456 789",
     email: "b@beyonce.com"
   },
   {
     name: "Jack Bauer",
     imgURL:
-      "https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTczr4_Zq7kYKDTVg6-3ES5iVmeIq56y0xqSA&usqp=CAU",
     phone: "+987 654 321",
     email: "jack@nowhere.com"
   },
@@ -21,3 +23,5 @@ const contacts = [
     email: "gmail@chucknorris.com"
   }
 ];
+
+export default contacts;
